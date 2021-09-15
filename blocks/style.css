@@ -132,3 +132,16 @@ div, section, header, a, img {
   margin: 0;
   padding: 0;
 }
+
+.photo-grid {
+  max-width: calc(100% - 2 * 48px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto-fit;
+  gap: 16px;
+}
+
+.photo-grid__item {
+  max-width: 284px;
+  max-height: 213px;
+}
