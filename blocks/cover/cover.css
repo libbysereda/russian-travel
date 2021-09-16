@@ -41,6 +41,10 @@
   .cover {
     min-height: 480px;
   }
+
+  .cover:hover {
+    opacity: 1;
+  }
 }
 @media screen and (max-width : 767px) {
   .cover {
