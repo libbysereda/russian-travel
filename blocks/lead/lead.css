@@ -1,0 +1,5 @@
+.lead {
+  width: calc(100% - 2 * 148px);
+  max-width: 984px;
+  padding-top: 56px;
+}
