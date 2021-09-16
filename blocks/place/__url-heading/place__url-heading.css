@@ -7,14 +7,3 @@
   margin: 0 0 12px;
 }
 
-@media screen and (max-width : 1024px) {
-  .place__url-heading {
-    font-weight: 400;
-  }
-}
-@media (max-width : 768px) {
-
-}
-@media (max-width : 320px) {
-
-}

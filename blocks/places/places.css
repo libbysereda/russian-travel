@@ -7,14 +7,18 @@
   gap: 80px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1279px) {
   .places {
     max-width: calc(100% - 2 * 48px);
   }
 }
-@media (max-width : 768px) {
-
+@media screen and (max-width : 1023px) {
+  .places {
+    max-width: calc(100% - 2 * 24px);
+    padding: 88px 0;
+    gap: 73px;
+  }
 }
-@media (max-width : 320px) {
+@media screen and (max-width : 767px) {
 
 }
