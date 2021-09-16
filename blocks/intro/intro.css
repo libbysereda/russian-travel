@@ -1,7 +1,19 @@
 .intro {
   max-width: 690px;
   align-self: flex-start;
-  padding-left: calc(100% - 690px - 442px);
+  padding-left: 148px;
   padding-top: 92px;
   padding-bottom: 92px;
+}
+
+@media screen and (max-width : 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+@media (max-width : 768px) {
+
+}
+@media (max-width : 320px) {
+
 }

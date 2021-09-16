@@ -6,3 +6,20 @@
   margin: 0 0 26px;
   padding: 0;
 }
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width : 1024px) {
+  .place__paragraph {
+    margin-bottom: 27px;
+    line-height: 29.34px;
+  }
+}
+@media (max-width : 768px) {
+
+}
+@media (max-width : 320px) {
+
+}

@@ -7,3 +7,10 @@
   align-items: flex-end;
   margin-top: 28px;
 }
+
+@media (max-width : 768px) {
+
+}
+@media (max-width : 320px) {
+
+}

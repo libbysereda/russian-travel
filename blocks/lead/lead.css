@@ -3,3 +3,17 @@
   max-width: 984px;
   padding-top: 56px;
 }
+
+@media screen and (max-width : 1024px) {
+  .lead {
+    width: calc(100% - 2 * 48px);
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
+@media (max-width : 768px) {
+
+}
+@media (max-width : 320px) {
+
+}

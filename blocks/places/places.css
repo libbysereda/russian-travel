@@ -1,8 +1,20 @@
 .places {
-  width: calc(100% - 2 * 148px);
+  max-width: calc(100% - 2 * 148px);
   padding: 92px 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: max-content;
   gap: 80px;
+}
+
+@media screen and (max-width : 1024px) {
+  .places {
+    max-width: calc(100% - 2 * 48px);
+  }
+}
+@media (max-width : 768px) {
+
+}
+@media (max-width : 320px) {
+
 }
