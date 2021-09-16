@@ -1,4 +1,4 @@
-div, section, header, a, img {
+div, section, header, a, img, h2, p {
   outline: 1px solid red;
 }
 
@@ -144,6 +144,67 @@ div, section, header, a, img {
 }
 
 .photo-grid__item {
-  max-width: 284px;
-  max-height: 213px;
+  width: 100%;
+}
+
+.places {
+  width: calc(100% - 2 * 148px);
+  padding: 92px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content;
+  gap: 80px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: max-content;
+  gap: 48px 40px;
+}
+
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.place__website {
+  align-self: end;
+}
+
+.place__url-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+  align-self: end;
+  margin: 0 0 12px;
+}
+
+.place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #fff;
+  margin: 0;
+}
+
+.place__image {
+  width: 100%;
+}
+
+.place__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 0 26px;
+  padding: 0;
 }
