@@ -5,7 +5,8 @@
 CSS, Flexbox, HTML, Grid, Adaptive layout
 
 ## Интро
-Проект о путешествии по России.
+[Проект о путешествии по России](https://rimercores.github.io/russian-travel/)
+
 
 ## Figma
 
